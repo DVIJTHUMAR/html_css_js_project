@@ -1,0 +1,64 @@
+.love .love-i:hover img{
+    transform: translate(5%);
+}
+.love img{
+    transition: all 0.5s;
+}
+
+.story:hover img{
+
+    padding: 25px;
+}
+
+.story img{
+    transition: all 0.5s;
+}
+
+.TESTIMONIALS :hover img{
+    padding: 40px;
+}
+
+
+.TESTIMONIALS img{
+    transition: all 0.5s;
+}
+
+.about:hover img{
+
+    padding: 25px;
+
+}
+
+.about img{
+    transition: all 0.5s;
+}
+
+.shap-01{
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    position: absolute;
+    z-index: 99999;
+    top: 8%;
+    left: 33%;
+    animation: ani01 3s linear infinite;
+    border-radius: 50% 0% 50% 0%;
+}
+.shap-02{
+    width: 30px;
+    height: 30px;
+    border: 2px solid ;
+    position: absolute;
+    z-index: 99999;
+    top: 8%;
+    right: 33%;
+    animation: ani01 3s linear infinite;
+    border-radius: 50% 0% 50% 0%;
+}
+@keyframes ani01 {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.love{
+    position: relative;
+}
